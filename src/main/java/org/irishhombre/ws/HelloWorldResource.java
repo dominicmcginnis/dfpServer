@@ -1,4 +1,4 @@
-package org.irishhombre.ws.*;
+package org.irishhombre.ws;
 import javax.ws.rs.*;
 
 @Path("helloworld")

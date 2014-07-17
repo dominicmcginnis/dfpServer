@@ -12,7 +12,7 @@
   </properties>
 
   <build>
-  	<finalName>${project.artifactId}-${project.version}</finalName>
+  	<finalName>${project.artifactId}</finalName>
    <plugins>
       <plugin>
         <groupId>org.apache.tomcat.maven</groupId>
@@ -34,14 +34,12 @@
     <dependency>
         <groupId>com.sun.jersey</groupId>
         <artifactId>jersey-server</artifactId>
-        <version>1.11</version>
+        <version>1.18.1</version>
     </dependency>
-
-    <!-- Servlet API -->
     <dependency>
-       <groupId>javax.servlet</groupId>
-       <artifactId>javax.servlet-api</artifactId>
-       <version>3.0.1</version>
+      <groupId>com.sun.jersey</groupId>
+      <artifactId>jersey-servlet</artifactId>
+      <version>1.18.1</version>
     </dependency>
 
     <!-- logging -->
