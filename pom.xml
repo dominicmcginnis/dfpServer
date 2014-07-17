@@ -59,6 +59,18 @@
         <version>1.0.0</version>
     </dependency>
 
+    <!--- DFP API -->
+    <dependency>
+      <groupId>com.google.api-ads</groupId>
+      <artifactId>ads-lib</artifactId>
+      <version>RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.api-ads</groupId>
+      <artifactId>dfp-axis</artifactId>
+      <version>RELEASE</version>
+    </dependency>
+        
   </dependencies>
 
    <organization>
